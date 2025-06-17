@@ -1,0 +1,31 @@
+name: weather_app
+description: A new Flutter project.
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  provider: ^6.1.2
+  intl: ^0.18.1  # ✅ FIXED: Correct indentation (was outside the dependencies block)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Add this if you're using local images later
+  # assets:
+  #   - assets/images/
